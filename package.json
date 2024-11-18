@@ -1,0 +1,16 @@
+{
+  "name": "blackbeard-extension",
+  "private": "true",
+  "description": "A basic example of a Copilot Extension",
+  "scripts": {
+    "start": "tsx watch index.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "@copilot-extensions/preview-sdk": "^5.0.1",
+    "@octokit/core": "^6.1.2",
+    "@types/express": "^5.0.0",
+    "express": "^4.19.2",
+    "tsx": "^4.19.2"
+  }
+}
